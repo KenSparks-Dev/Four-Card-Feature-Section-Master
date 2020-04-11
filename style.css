@@ -108,7 +108,7 @@ img {
 	.card-a,
 	.card-d {
 		margin-top: 140px;
-	}
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -135,11 +135,11 @@ img {
 	.four-cards {
 		justify-content: center;
 		padding-top: 30px;
-		margin: auto;
+    margin: auto;
 	}
 	.card-a,
 	.card-d {
-		margin-top: 0px;
+    margin-top: 0px;
 	}
 	.card-a,
 	.card-b {
@@ -147,26 +147,30 @@ img {
 	}
 	.card-a {
 		border-top: 4px solid hsl(180, 62%, 55%);
-		margin-right: 30px;
+    margin-right: 30px;
+
 	}
 	.card-b {
 		border-top: 4px solid hsl(0, 78%, 62%);
-		margin-right: 30px;
+    margin-right: 30px;
 	}
 	.card-c {
-		border-top: 4px solid hsl(34, 97%, 64%);
-		margin-top: 40px;
+    border-top: 4px solid hsl(34, 97%, 64%);
 	}
 	.card-d {
 		border-top: 4px solid hsl(212, 86%, 64%);
 	}
 	.card {
 		margin: 0px;
-		box-shadow: 0 0 10px 0px;
+		box-shadow: 0 0 20px 0px hsl(234, 12%, 34%);
 		border-radius: 6px;
 		padding: 20px;
-		margin: 0px;
+		margin: 10px 0px 0px 0px;
 		max-width: 320px;
-		height: 250px;
-	}
+    height: 250px;
+  }
+  .middle-row{
+    margin: 28px 0px 0px 0px;
+
+  }
 }
