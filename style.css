@@ -1,0 +1,70 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background:hsl(0, 0%, 98%)
+}
+
+.card{
+  margin:0px;
+  box-shadow:0 0 10px 0px ;
+  border-radius: 6px;
+  padding:20px;
+  margin:0px;
+  max-width:350px;
+  height: 250px;
+}
+.title-1{
+  font-weight:200;
+  padding-top:30px;
+}
+
+.title-2{
+  font-weight:600;
+  color:hsl(234, 12%, 34%);
+}
+.title-3{
+  padding-top:10px;
+}
+.four-cards{
+  padding-top:70px
+}
+h5{
+  font-weight:600;
+  color:hsl(234, 12%, 34%);
+
+}
+p{
+  color:hsl(229, 6%, 66%);
+  font-size:15px;
+  font-weight:400;
+}
+img{
+  padding-top:15px;
+}
+.card-a{
+  border-top: 4px solid hsl(180, 62%, 55%);
+  margin-right:30px
+}
+.card-b{
+  border-top: 4px solid hsl(0, 78%, 62%);
+  margin-right:30px
+
+}
+.card-c{
+  border-top: 4px solid hsl(34, 97%, 64%);
+  margin-top:40px;
+}
+.card-d{
+  border-top: 4px solid hsl(212, 86%, 64%);
+
+}
+.card-a, .card-d{
+  margin-top:140px
+}
+
+@media (min-width:576){
+  .card-a, .card-d{
+  margin:0px;
+  padding:0px;
+  max-height:300px
+}
+}

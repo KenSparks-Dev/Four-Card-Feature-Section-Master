@@ -2,38 +2,71 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <title>Frontend Mentor | Four card feature section</title>
-  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" /> 
+<title>Frontend Mentor | Four card feature section</title>
+  <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
   
-  Reliable, efficient delivery
-  Powered by Technology
-
-  Our Artificial Intelligence powered tools use millions of project data points 
-  to ensure that your project is successful
-
-  Supervisor
-  Monitors activity to identify project roadblocks
-
-  Team Builder
-  Scans our talent network to create the optimal team for your project
-
-  Karma
-  Regularly evaluates our talent to ensure quality
-
-  Calculator
-  Uses data from past projects to provide better delivery estimates
-
-  
-  <footer>
-    <p class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-      Coded by <a href="#">Your Name Here</a>.
-    </p>
-  </footer>
+<div class="container">
+  <div class="row">
+    <div class="col-sm text-center">
+      <h1 class="title-1">Reliable, efficient delivery</h1>
+      <h1 class="title-2">Powered by Technology</h1>
+      <p class="text-align-center title-3">Our Artificial Intelligence powered tools use millions of project data <br> points to ensure that your project is successful</p>
+    </div>
+  </div>
+  <!--left-->
+    <div class="row four-cards">
+        <div class="row">
+          <div class="col-sm">
+            <div class="card bg-light mb-3 card-a">
+              <div class="card-body">
+                <h5 class="card-title">Supervisor</h5>
+                <p class="card-text">Monitors activity to identify project roadblocks</p>
+                <img src="images/icon-supervisor.svg" class="float-right" alt="icon-supervisor">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--Middle Row-->
+        <div class="row ">
+          <div class="col-sm middle-row">
+            <div class="card bg-light mb-3 card-b">
+              <div class="card-body">
+                <h5 class="card-title">Team Builder</h5>
+                <p class="card-text">Scans our talent network to create the optimal team for your project</p>
+                <img src="/images/icon-team-builder.svg" class="float-right" alt="icon-team-builder">
+              </div>
+            </div>
+            <div class="card bg-light mb-3 card-c">
+              <div class="card-body">
+                <h5 class="card-title">Karma</h5>
+                <p class="card-text">Regularly evaluates our talent to ensure quality</p>
+                <img src="/images/icon-karma.svg" class="float-right" alt="icon-karma">
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <!--right-->
+        <div class="row">
+          <div class="col-sm">
+            <div class="card bg-light mb-3 card-d">
+              <div class="card-body">
+                <h5 class="card-title">Calculator</h5>
+                <p class="card-text">Uses data from past projects to provide better delivery estimates</p>
+                <img src="/images/icon-calculator.svg" class="float-right" alt="icon-calculator">
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> 
+</div>
   <script src="node_modules/jquery/dist/jquery.slim.min.js"> </script> 
   <script src="node_modules/popper.js/dist/umd/popper.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"> </script>
