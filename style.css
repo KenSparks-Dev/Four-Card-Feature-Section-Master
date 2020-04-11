@@ -159,7 +159,13 @@ img {
 	}
 	.card-d {
 		border-top: 4px solid hsl(212, 86%, 64%);
-	}
+  }
+  .card-d img{
+    padding-top:0px;
+  }
+  .card-b img{
+    padding-top:0px;
+  }
 	.card {
 		margin: 0px;
 		box-shadow: 0 0 20px 0px hsl(234, 12%, 34%);
