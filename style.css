@@ -1,7 +1,6 @@
 body {
 	font-family: 'Poppins', sans-serif;
   background: hsl(0, 0%, 98%);
-  overflow-y:hidden;
 }
 
 .card {
@@ -182,4 +181,18 @@ img {
     margin: 28px 0px 0px 0px;
 
   }
+}
+/* screen is breaking between 768 and 991*/
+@media (min-width: 768px) and (max-width: 991px) {
+	.card {
+		margin: 0px;
+		box-shadow: 0 0 20px 0px hsl(234, 12%, 34%);
+		border-radius: 6px;
+		padding: 20px;
+		margin: 10px 0px 0px 0px;
+		max-width: 360px;
+    height: 250px;
+  }
+  
+
 }
